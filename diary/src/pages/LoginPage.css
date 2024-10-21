@@ -1,0 +1,27 @@
+.login_box {
+  min-height: 50vh;
+  transform: translateY(50%);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+}
+.login_btn {
+  border: none;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.login_btn:hover {
+  background-color: #f9f9f9;
+}
